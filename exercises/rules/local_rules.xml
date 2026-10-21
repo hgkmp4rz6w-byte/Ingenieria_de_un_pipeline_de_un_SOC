@@ -1,0 +1,7 @@
+<group name="local,lab_auth,">
+  <rule id="100100" level="0">
+    <decoded_as>lab-auth</decoded_as>
+    <description>Evento de la aplicacion de laboratorio.</description>
+  </rule>
+  <!-- Agrega 100101: fallo individual, 100102: exito y 100110: correlacion. -->
+</group>

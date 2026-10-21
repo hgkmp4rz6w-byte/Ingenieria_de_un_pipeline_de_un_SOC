@@ -1,0 +1,91 @@
+
+
+
+
+
+Starting wazuh-logtest v4.14.1
+Type one log per line
+
+**Phase 1: Completed pre-decoding.
+	full event: 'lab-auth: ts=2026-10-21T03:48:55.780172Z user=ana src=192.0.2.10 result=FAIL service=portal run=576652f256434bf3a421251fd76ce3e7'
+
+**Phase 2: Completed decoding.
+	name: 'lab-auth'
+	dstuser: 'ana'
+	event_time: '2026-10-21T03:48:55.780172Z'
+	run_id: '576652f256434bf3a421251fd76ce3e7'
+	service: 'portal'
+	srcip: '192.0.2.10'
+	status: 'FAIL'
+
+**Phase 3: Completed filtering (rules).
+	id: '100101'
+	level: '3'
+	description: 'Fallo de autenticacion: ana desde 192.0.2.10.'
+	groups: '['local', 'lab_auth', 'authentication_failed']'
+	firedtimes: '1'
+	mail: 'False'
+**Alert to be generated.
+
+**Phase 1: Completed pre-decoding.
+	full event: 'lab-auth: ts=2026-10-21T03:48:55.780197Z user=ana src=192.0.2.10 result=FAIL service=portal run=576652f256434bf3a421251fd76ce3e7'
+
+**Phase 2: Completed decoding.
+	name: 'lab-auth'
+	dstuser: 'ana'
+	event_time: '2026-10-21T03:48:55.780197Z'
+	run_id: '576652f256434bf3a421251fd76ce3e7'
+	service: 'portal'
+	srcip: '192.0.2.10'
+	status: 'FAIL'
+
+**Phase 3: Completed filtering (rules).
+	id: '100101'
+	level: '3'
+	description: 'Fallo de autenticacion: ana desde 192.0.2.10.'
+	groups: '['local', 'lab_auth', 'authentication_failed']'
+	firedtimes: '2'
+	mail: 'False'
+**Alert to be generated.
+
+**Phase 1: Completed pre-decoding.
+	full event: 'lab-auth: ts=2026-10-21T03:48:55.780201Z user=ana src=192.0.2.10 result=FAIL service=portal run=576652f256434bf3a421251fd76ce3e7'
+
+**Phase 2: Completed decoding.
+	name: 'lab-auth'
+	dstuser: 'ana'
+	event_time: '2026-10-21T03:48:55.780201Z'
+	run_id: '576652f256434bf3a421251fd76ce3e7'
+	service: 'portal'
+	srcip: '192.0.2.10'
+	status: 'FAIL'
+
+**Phase 3: Completed filtering (rules).
+	id: '100101'
+	level: '3'
+	description: 'Fallo de autenticacion: ana desde 192.0.2.10.'
+	groups: '['local', 'lab_auth', 'authentication_failed']'
+	firedtimes: '3'
+	mail: 'False'
+**Alert to be generated.
+
+**Phase 1: Completed pre-decoding.
+	full event: 'lab-auth: ts=2026-10-21T03:48:55.780203Z user=ana src=192.0.2.10 result=FAIL service=portal run=576652f256434bf3a421251fd76ce3e7'
+
+**Phase 2: Completed decoding.
+	name: 'lab-auth'
+	dstuser: 'ana'
+	event_time: '2026-10-21T03:48:55.780203Z'
+	run_id: '576652f256434bf3a421251fd76ce3e7'
+	service: 'portal'
+	srcip: '192.0.2.10'
+	status: 'FAIL'
+
+**Phase 3: Completed filtering (rules).
+	id: '100101'
+	level: '3'
+	description: 'Fallo de autenticacion: ana desde 192.0.2.10.'
+	groups: '['local', 'lab_auth', 'authentication_failed']'
+	firedtimes: '4'
+	mail: 'False'
+**Alert to be generated.

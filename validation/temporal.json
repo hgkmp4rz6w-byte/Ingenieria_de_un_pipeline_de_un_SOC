@@ -1,0 +1,188 @@
+{
+  "case": "outside-window",
+  "interval_seconds": 16,
+  "ingested": 5,
+  "alerts": [
+    {
+      "timestamp": "2026-10-21T03:50:22.896+0000",
+      "rule": {
+        "level": 3,
+        "description": "Fallo de autenticacion: ana desde 192.0.2.10.",
+        "id": "100101",
+        "firedtimes": 24,
+        "mail": false,
+        "groups": [
+          "local",
+          "lab_auth",
+          "authentication_failed"
+        ]
+      },
+      "agent": {
+        "id": "000",
+        "name": "soc-lab"
+      },
+      "manager": {
+        "name": "soc-lab"
+      },
+      "id": "1792554622.13760",
+      "full_log": "lab-auth: ts=2026-10-21T03:50:22.302843Z user=ana src=192.0.2.10 result=FAIL service=portal run=1fc1cf6126824ae8a611a4734fec4d46",
+      "decoder": {
+        "name": "lab-auth"
+      },
+      "data": {
+        "srcip": "192.0.2.10",
+        "dstuser": "ana",
+        "status": "FAIL",
+        "event_time": "2026-10-21T03:50:22.302843Z",
+        "service": "portal",
+        "run_id": "1fc1cf6126824ae8a611a4734fec4d46"
+      },
+      "location": "/lab/input/auth.log"
+    },
+    {
+      "timestamp": "2026-10-21T03:50:38.913+0000",
+      "rule": {
+        "level": 3,
+        "description": "Fallo de autenticacion: ana desde 192.0.2.10.",
+        "id": "100101",
+        "firedtimes": 25,
+        "mail": false,
+        "groups": [
+          "local",
+          "lab_auth",
+          "authentication_failed"
+        ]
+      },
+      "agent": {
+        "id": "000",
+        "name": "soc-lab"
+      },
+      "manager": {
+        "name": "soc-lab"
+      },
+      "id": "1792554638.14207",
+      "full_log": "lab-auth: ts=2026-10-21T03:50:22.302980Z user=ana src=192.0.2.10 result=FAIL service=portal run=1fc1cf6126824ae8a611a4734fec4d46",
+      "decoder": {
+        "name": "lab-auth"
+      },
+      "data": {
+        "srcip": "192.0.2.10",
+        "dstuser": "ana",
+        "status": "FAIL",
+        "event_time": "2026-10-21T03:50:22.302980Z",
+        "service": "portal",
+        "run_id": "1fc1cf6126824ae8a611a4734fec4d46"
+      },
+      "location": "/lab/input/auth.log"
+    },
+    {
+      "timestamp": "2026-10-21T03:50:54.933+0000",
+      "rule": {
+        "level": 3,
+        "description": "Fallo de autenticacion: ana desde 192.0.2.10.",
+        "id": "100101",
+        "firedtimes": 26,
+        "mail": false,
+        "groups": [
+          "local",
+          "lab_auth",
+          "authentication_failed"
+        ]
+      },
+      "agent": {
+        "id": "000",
+        "name": "soc-lab"
+      },
+      "manager": {
+        "name": "soc-lab"
+      },
+      "id": "1792554654.14654",
+      "full_log": "lab-auth: ts=2026-10-21T03:50:22.302983Z user=ana src=192.0.2.10 result=FAIL service=portal run=1fc1cf6126824ae8a611a4734fec4d46",
+      "decoder": {
+        "name": "lab-auth"
+      },
+      "data": {
+        "srcip": "192.0.2.10",
+        "dstuser": "ana",
+        "status": "FAIL",
+        "event_time": "2026-10-21T03:50:22.302983Z",
+        "service": "portal",
+        "run_id": "1fc1cf6126824ae8a611a4734fec4d46"
+      },
+      "location": "/lab/input/auth.log"
+    },
+    {
+      "timestamp": "2026-10-21T03:51:10.955+0000",
+      "rule": {
+        "level": 3,
+        "description": "Fallo de autenticacion: ana desde 192.0.2.10.",
+        "id": "100101",
+        "firedtimes": 27,
+        "mail": false,
+        "groups": [
+          "local",
+          "lab_auth",
+          "authentication_failed"
+        ]
+      },
+      "agent": {
+        "id": "000",
+        "name": "soc-lab"
+      },
+      "manager": {
+        "name": "soc-lab"
+      },
+      "id": "1792554670.15101",
+      "full_log": "lab-auth: ts=2026-10-21T03:50:22.302984Z user=ana src=192.0.2.10 result=FAIL service=portal run=1fc1cf6126824ae8a611a4734fec4d46",
+      "decoder": {
+        "name": "lab-auth"
+      },
+      "data": {
+        "srcip": "192.0.2.10",
+        "dstuser": "ana",
+        "status": "FAIL",
+        "event_time": "2026-10-21T03:50:22.302984Z",
+        "service": "portal",
+        "run_id": "1fc1cf6126824ae8a611a4734fec4d46"
+      },
+      "location": "/lab/input/auth.log"
+    },
+    {
+      "timestamp": "2026-10-21T03:51:26.973+0000",
+      "rule": {
+        "level": 3,
+        "description": "Fallo de autenticacion: ana desde 192.0.2.10.",
+        "id": "100101",
+        "firedtimes": 28,
+        "mail": false,
+        "groups": [
+          "local",
+          "lab_auth",
+          "authentication_failed"
+        ]
+      },
+      "agent": {
+        "id": "000",
+        "name": "soc-lab"
+      },
+      "manager": {
+        "name": "soc-lab"
+      },
+      "id": "1792554686.15548",
+      "full_log": "lab-auth: ts=2026-10-21T03:50:22.302986Z user=ana src=192.0.2.10 result=FAIL service=portal run=1fc1cf6126824ae8a611a4734fec4d46",
+      "decoder": {
+        "name": "lab-auth"
+      },
+      "data": {
+        "srcip": "192.0.2.10",
+        "dstuser": "ana",
+        "status": "FAIL",
+        "event_time": "2026-10-21T03:50:22.302986Z",
+        "service": "portal",
+        "run_id": "1fc1cf6126824ae8a611a4734fec4d46"
+      },
+      "location": "/lab/input/auth.log"
+    }
+  ],
+  "passed": true
+}

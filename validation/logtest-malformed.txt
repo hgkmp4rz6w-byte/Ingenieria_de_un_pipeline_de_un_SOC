@@ -1,0 +1,78 @@
+
+
+
+
+
+
+Starting wazuh-logtest v4.14.1
+Type one log per line
+
+**Phase 1: Completed pre-decoding.
+	full event: 'lab-auth: ts=2026-10-21T03:49:00.735568Z user=ana result=FAIL service=portal run=ac34fce99d4c4367bfe08db0dcc3d803'
+
+**Phase 2: Completed decoding.
+	name: 'lab-auth'
+
+**Phase 3: Completed filtering (rules).
+	id: '100100'
+	level: '0'
+	description: 'Evento de la aplicacion de laboratorio.'
+	groups: '['local', 'lab_auth']'
+	firedtimes: '1'
+	mail: 'False'
+
+**Phase 1: Completed pre-decoding.
+	full event: 'lab-auth: ts=2026-10-21T03:49:00.735571Z user=ana result=FAIL service=portal run=ac34fce99d4c4367bfe08db0dcc3d803'
+
+**Phase 2: Completed decoding.
+	name: 'lab-auth'
+
+**Phase 3: Completed filtering (rules).
+	id: '100100'
+	level: '0'
+	description: 'Evento de la aplicacion de laboratorio.'
+	groups: '['local', 'lab_auth']'
+	firedtimes: '2'
+	mail: 'False'
+
+**Phase 1: Completed pre-decoding.
+	full event: 'lab-auth: ts=2026-10-21T03:49:00.735572Z user=ana result=FAIL service=portal run=ac34fce99d4c4367bfe08db0dcc3d803'
+
+**Phase 2: Completed decoding.
+	name: 'lab-auth'
+
+**Phase 3: Completed filtering (rules).
+	id: '100100'
+	level: '0'
+	description: 'Evento de la aplicacion de laboratorio.'
+	groups: '['local', 'lab_auth']'
+	firedtimes: '3'
+	mail: 'False'
+
+**Phase 1: Completed pre-decoding.
+	full event: 'lab-auth: ts=2026-10-21T03:49:00.735574Z user=ana result=FAIL service=portal run=ac34fce99d4c4367bfe08db0dcc3d803'
+
+**Phase 2: Completed decoding.
+	name: 'lab-auth'
+
+**Phase 3: Completed filtering (rules).
+	id: '100100'
+	level: '0'
+	description: 'Evento de la aplicacion de laboratorio.'
+	groups: '['local', 'lab_auth']'
+	firedtimes: '4'
+	mail: 'False'
+
+**Phase 1: Completed pre-decoding.
+	full event: 'lab-auth: ts=2026-10-21T03:49:00.735575Z user=ana result=FAIL service=portal run=ac34fce99d4c4367bfe08db0dcc3d803'
+
+**Phase 2: Completed decoding.
+	name: 'lab-auth'
+
+**Phase 3: Completed filtering (rules).
+	id: '100100'
+	level: '0'
+	description: 'Evento de la aplicacion de laboratorio.'
+	groups: '['local', 'lab_auth']'
+	firedtimes: '5'
+	mail: 'False'

@@ -1,0 +1,6 @@
+<!-- Paso 1: reconoce la fuente. Paso 2: agrega un decoder hijo con regex PCRE2
+     y order para event_time,dstuser,srcip,status,service,run_id.
+     Consulta docs/02-ejercicios.md para el contrato de campos. -->
+<decoder name="lab-auth">
+  <prematch>^lab-auth: </prematch>
+</decoder>

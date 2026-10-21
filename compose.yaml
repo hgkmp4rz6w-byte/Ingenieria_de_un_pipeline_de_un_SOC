@@ -1,0 +1,29 @@
+name: soc-pipeline-lab
+services:
+  manager:
+    image: soc-pipeline-manager:4.14.1-lab1
+    platform: linux/amd64
+    build:
+      context: .
+      dockerfile: container/Dockerfile
+    hostname: soc-lab
+    environment:
+      AUTO_ENROLLMENT_ENABLED: "false"
+    mem_limit: 4g
+    cpus: 2
+    volumes:
+      - ./config/ossec.conf:/wazuh-config-mount/etc/ossec.conf:ro
+      - ./runtime/decoders:/wazuh-config-mount/etc/decoders:ro
+      - ./runtime/rules:/wazuh-config-mount/etc/rules:ro
+      - ./runtime/input:/lab/input:ro
+    healthcheck:
+      test: ["CMD-SHELL", "/var/ossec/bin/wazuh-control status | grep -q 'wazuh-analysisd is running' && /var/ossec/bin/wazuh-control status | grep -q 'wazuh-logcollector is running'"]
+      interval: 5s
+      timeout: 5s
+      retries: 36
+      start_period: 30s
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "2"

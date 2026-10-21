@@ -1,0 +1,113 @@
+
+
+
+
+
+
+Starting wazuh-logtest v4.14.1
+Type one log per line
+
+**Phase 1: Completed pre-decoding.
+	full event: 'lab-auth: ts=2026-10-21T03:48:58.796058Z user=user0 src=192.0.2.10 result=FAIL service=portal run=b63e814a370f47cca97a6e58ff373433'
+
+**Phase 2: Completed decoding.
+	name: 'lab-auth'
+	dstuser: 'user0'
+	event_time: '2026-10-21T03:48:58.796058Z'
+	run_id: 'b63e814a370f47cca97a6e58ff373433'
+	service: 'portal'
+	srcip: '192.0.2.10'
+	status: 'FAIL'
+
+**Phase 3: Completed filtering (rules).
+	id: '100101'
+	level: '3'
+	description: 'Fallo de autenticacion: user0 desde 192.0.2.10.'
+	groups: '['local', 'lab_auth', 'authentication_failed']'
+	firedtimes: '1'
+	mail: 'False'
+**Alert to be generated.
+
+**Phase 1: Completed pre-decoding.
+	full event: 'lab-auth: ts=2026-10-21T03:48:58.796059Z user=user1 src=192.0.2.10 result=FAIL service=portal run=b63e814a370f47cca97a6e58ff373433'
+
+**Phase 2: Completed decoding.
+	name: 'lab-auth'
+	dstuser: 'user1'
+	event_time: '2026-10-21T03:48:58.796059Z'
+	run_id: 'b63e814a370f47cca97a6e58ff373433'
+	service: 'portal'
+	srcip: '192.0.2.10'
+	status: 'FAIL'
+
+**Phase 3: Completed filtering (rules).
+	id: '100101'
+	level: '3'
+	description: 'Fallo de autenticacion: user1 desde 192.0.2.10.'
+	groups: '['local', 'lab_auth', 'authentication_failed']'
+	firedtimes: '2'
+	mail: 'False'
+**Alert to be generated.
+
+**Phase 1: Completed pre-decoding.
+	full event: 'lab-auth: ts=2026-10-21T03:48:58.796061Z user=user2 src=192.0.2.10 result=FAIL service=portal run=b63e814a370f47cca97a6e58ff373433'
+
+**Phase 2: Completed decoding.
+	name: 'lab-auth'
+	dstuser: 'user2'
+	event_time: '2026-10-21T03:48:58.796061Z'
+	run_id: 'b63e814a370f47cca97a6e58ff373433'
+	service: 'portal'
+	srcip: '192.0.2.10'
+	status: 'FAIL'
+
+**Phase 3: Completed filtering (rules).
+	id: '100101'
+	level: '3'
+	description: 'Fallo de autenticacion: user2 desde 192.0.2.10.'
+	groups: '['local', 'lab_auth', 'authentication_failed']'
+	firedtimes: '3'
+	mail: 'False'
+**Alert to be generated.
+
+**Phase 1: Completed pre-decoding.
+	full event: 'lab-auth: ts=2026-10-21T03:48:58.796062Z user=user3 src=192.0.2.10 result=FAIL service=portal run=b63e814a370f47cca97a6e58ff373433'
+
+**Phase 2: Completed decoding.
+	name: 'lab-auth'
+	dstuser: 'user3'
+	event_time: '2026-10-21T03:48:58.796062Z'
+	run_id: 'b63e814a370f47cca97a6e58ff373433'
+	service: 'portal'
+	srcip: '192.0.2.10'
+	status: 'FAIL'
+
+**Phase 3: Completed filtering (rules).
+	id: '100101'
+	level: '3'
+	description: 'Fallo de autenticacion: user3 desde 192.0.2.10.'
+	groups: '['local', 'lab_auth', 'authentication_failed']'
+	firedtimes: '4'
+	mail: 'False'
+**Alert to be generated.
+
+**Phase 1: Completed pre-decoding.
+	full event: 'lab-auth: ts=2026-10-21T03:48:58.796062Z user=user4 src=192.0.2.10 result=FAIL service=portal run=b63e814a370f47cca97a6e58ff373433'
+
+**Phase 2: Completed decoding.
+	name: 'lab-auth'
+	dstuser: 'user4'
+	event_time: '2026-10-21T03:48:58.796062Z'
+	run_id: 'b63e814a370f47cca97a6e58ff373433'
+	service: 'portal'
+	srcip: '192.0.2.10'
+	status: 'FAIL'
+
+**Phase 3: Completed filtering (rules).
+	id: '100101'
+	level: '3'
+	description: 'Fallo de autenticacion: user4 desde 192.0.2.10.'
+	groups: '['local', 'lab_auth', 'authentication_failed']'
+	firedtimes: '5'
+	mail: 'False'
+**Alert to be generated.

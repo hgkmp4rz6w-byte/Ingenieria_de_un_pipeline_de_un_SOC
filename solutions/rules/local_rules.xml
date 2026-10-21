@@ -1,0 +1,29 @@
+<group name="local,lab_auth,">
+  <rule id="100100" level="0">
+    <decoded_as>lab-auth</decoded_as>
+    <description>Evento de la aplicacion de laboratorio.</description>
+  </rule>
+  <rule id="100101" level="3">
+    <if_sid>100100</if_sid>
+    <status>^FAIL$</status>
+    <description>Fallo de autenticacion: $(dstuser) desde $(srcip).</description>
+    <group>authentication_failed,</group>
+  </rule>
+  <rule id="100102" level="3">
+    <if_sid>100100</if_sid>
+    <status>^SUCCESS$</status>
+    <description>Autenticacion correcta: $(dstuser) desde $(srcip).</description>
+    <group>authentication_success,</group>
+  </rule>
+  <rule id="100110" level="10" frequency="5" timeframe="60">
+    <if_matched_sid>100101</if_matched_sid>
+    <same_srcip />
+    <same_user />
+    <same_field>service</same_field>
+    <!-- run_id aisla repeticiones del laboratorio; no es una clave de produccion. -->
+    <same_field>run_id</same_field>
+    <description>Posible adivinacion de contrasenas: $(dstuser) desde $(srcip) en $(service).</description>
+    <mitre><id>T1110.001</id></mitre>
+    <group>authentication_failures,</group>
+  </rule>
+</group>
